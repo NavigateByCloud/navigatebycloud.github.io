@@ -26,4 +26,3 @@ Library is a Unity3D project that I developed and maintained in Looking Glass Fa
         {% include figure.liquid loading="eager" path="assets/img/library-error.jpg" title="avatar" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-

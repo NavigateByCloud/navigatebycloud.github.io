@@ -7,7 +7,6 @@ importance: 1
 category: fun
 ---
 
-
 ## Brief Introduction
 
 Card Odyssey is a 54-card based solitaire strategy game. Your goal in this game is to help the hero kill the monster. Unlike traditional RPGs, in Card Odyssey, you need to be patient and wait for the right moment to kill the monster. Carefully manage and distribute all the resources you get, and wait for the exciting moment of victory!
