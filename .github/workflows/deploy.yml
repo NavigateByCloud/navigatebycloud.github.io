@@ -88,6 +88,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Verify Includes Directory
+        run: |
+          echo "Checking contents of _includes directory:"
+          ls -la _includes || echo "Directory _includes not found"
+          if [ -f "_includes/figure.liquid" ]; then
+            echo "figure.liquid found in _includes"
+          else
+            echo "figure.liquid NOT found in _includes"
+          fi
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
