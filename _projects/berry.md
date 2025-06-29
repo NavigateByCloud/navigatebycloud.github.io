@@ -22,6 +22,7 @@ BeRrY is a two-player competitive abstract strategy game. This game is played wi
 As a game developer, I implemented the game with Arduino (C++).
 
 As a game designer, I:
+
 - Concepted and iterated a neat gateway game, which earned a licensing contract for us.
 - Iterated on clean and concise rule-writing to ensure there is no ambiguous description. You can view the [Rules of BeRrY](https://docs.google.com/document/d/11vRISO0vzHCNTK82baSalQpbK05I1csfQMx6Kd8c1Ko/edit?usp=sharing) and reference sheets.
 - Cut a playthrough video.

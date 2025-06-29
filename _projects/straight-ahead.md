@@ -24,12 +24,14 @@ Straight Ahead is selected into the final contest (two-month in Scotland) of Dar
 ## My Role in the Team
 
 As a core programmer, I worked on:
+
 - Core gameplay system including movement, collision, and controls
 - Located and played visual feedbacks when a collision happens using vector math
 - UI interface of the win-and-fail scene, combo, almost-there, level picking, and etc
 - Debugging and troubleshooting
 
 As a game designer, I contributed to:
+
 - Level design - four levels with different schemes and elements and an infinite level
 - Core mechanics
 
@@ -96,8 +98,6 @@ You can watch a video about Straight Ahead on [YouTube](https://youtu.be/7ISABu6
 <div class="caption">
     Further visuals from Straight Ahead, including showcase and event images.
 </div>
-
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

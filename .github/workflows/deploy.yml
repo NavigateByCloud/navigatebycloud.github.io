@@ -93,9 +93,9 @@ jobs:
           ls -la _includes || echo "Directory _includes not found"
           if [ -f "_includes/figure.liquid" ]; then
             echo "figure.liquid found in _includes"
-            mkdir -p /github/workspace/_includes
-            cp _includes/figure.liquid /github/workspace/_includes/
-            echo "Copied figure.liquid to /github/workspace/_includes/"
+            mkdir -p _includes_dest
+            cp _includes/figure.liquid _includes_dest/
+            echo "Copied figure.liquid to _includes_dest/"
           else
             echo "figure.liquid NOT found in _includes"
           fi

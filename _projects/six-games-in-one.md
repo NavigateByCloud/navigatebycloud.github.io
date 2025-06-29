@@ -16,6 +16,7 @@ They/it consist(s) of six games which play simultaneously on the same screen. Th
 I implemented the text game within Unity with Twine-to-Unity plugin.
 
 Credits:
+
 - 2D Rolling Game: Corey Bertelsen
 - Flying Game: Dennis Carr
 - 3D Katamari Game: Jenna Galka
