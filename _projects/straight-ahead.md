@@ -9,7 +9,7 @@ category: fun
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/media/2018-03-24_23_52_55.gif" title="Straight Ahead Cover" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets\img\media\3m_2m_exhibitor_zone_display_2.jpg" title="Straight Ahead Cover" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -97,13 +97,4 @@ You can watch a video about Straight Ahead on [YouTube](https://youtu.be/7ISABu6
 </div>
 <div class="caption">
     Further visuals from Straight Ahead, including showcase and event images.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/media/251709151_B8YHQMl.jpg" title="Straight Ahead Image 13" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Additional image from Straight Ahead capturing the game's unique style.
 </div>

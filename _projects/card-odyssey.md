@@ -7,11 +7,6 @@ importance: 1
 category: fun
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/media/cover.gif" title="Card Odyssey Cover" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ## Brief Introduction
 
@@ -33,10 +28,10 @@ You can watch a video about Card Odyssey on [YouTube](https://youtu.be/p1LZiM9ye
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/media/gameplay.gif" title="Card Odyssey Gameplay" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/media/gameplay.gif" title="Card Odyssey Gameplay" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/media/playtest_x8m5bfA.jpg" title="Card Odyssey Playtest" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/media/playtest_x8m5bfA.jpg" title="Card Odyssey Playtest" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: contain;" %}
     </div>
 </div>
 <div class="caption">

@@ -2,7 +2,7 @@
 layout: page
 title: Circle 0
 description: A game of beautiful messes and inevitable destruction
-img: assets/img/cover-gif.gif
+img: assets/img/media/cover-gif.gif
 importance: 3
 category: fun
 ---
@@ -37,13 +37,13 @@ You can download and play it at [itch.io](https://yesyes.itch.io/circle0).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif10.gif" title="Gameplay Moment 6" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/media/gif10.gif" title="Gameplay Moment 6" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif11.gif" title="Gameplay Moment 7" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/media/gif11.gif" title="Gameplay Moment 7" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif5.gif" title="Gameplay Moment 8" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/media/gif5.gif" title="Gameplay Moment 8" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -8,18 +8,37 @@ category: work
 giscus_comments: false
 ---
 
-Unity Plugin is a project that I developed and maintained at Looking Glass Factory for years. It contains 9 sample scenes including features like hologram rendering, video recording, 3D cursor, virtual XR camera, hardware button support, UI support, iOS support, screenshot and video recording.
+The Looking Glass Unity Plugin is a powerful tool I developed and maintained over several years at Looking Glass Factory. This plugin transforms the way developers create holographic experiences, offering a robust set of features through 9 meticulously crafted sample scenes. From hologram rendering to advanced interaction controls, this plugin is designed to elevate Unity projects with cutting-edge 3D display technology.
 
-Features
+### Key Features
 
-- Run interactive scenes from within the Unity editor and in packaged builds
-- Create apps for iOS devices
-- Record holograms from the Unity editor
-- Use hardware buttons for Looking Glass devices (Windows only)
-- Post-processing stack for holograms
-- iOS support
-- 3D cursor and orbit controls for holographic interactions
+- **Interactive Scene Execution**: Seamlessly run interactive scenes directly within the Unity editor or in packaged builds.
+- **iOS Compatibility**: Develop and deploy apps tailored for iOS devices, expanding your reach.
+- **Hologram Recording**: Capture stunning holograms directly from the Unity editor for playback or sharing.
+- **Hardware Integration**: Utilize hardware buttons on Looking Glass devices for enhanced control (Windows only).
+- **Advanced Visuals**: Leverage a post-processing stack specifically optimized for holographic content.
+- **Intuitive Controls**: Implement a 3D cursor and orbit controls for natural, immersive holographic interactions.
 
-The most recent feature I was working on is the iOS sample scene with a step-by-step setup guide.Also I wrote the [documentation](<https://lookingglassfactory.com/software/looking-glass-unity-plugin](https://docs.lookingglassfactory.com/software/index/script-reference/ios-sample-scene-scripts)>)
+### Recent Developments
 
-Check more details and download it at [Unity Plugin Website](https://lookingglassfactory.com/software/looking-glass-unity-plugin).
+One of my latest contributions to this plugin is the iOS sample scene, complete with a detailed step-by-step setup guide. Below are screenshots showcasing the iOS integration process. Additionally, I authored the comprehensive [documentation](https://docs.lookingglassfactory.com/software/index/script-reference/ios-sample-scene-scripts) to assist developers in harnessing the full capabilities of this tool.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/unity-plugin-ios-page2.jpg" title="avatar" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The GameObject and Component for a page in Editor
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/unity-plugin-ios-popup.jpg" title="avatar" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The GameObject and Component for a pop-up in Editor
+</div>
+
+Plugin and related codes can be downloaded at the [Unity Plugin Website](https://lookingglassfactory.com/software/looking-glass-unity-plugin).
