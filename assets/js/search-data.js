@@ -43,6 +43,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-library",
+          title: 'Library',
+          description: "A Library for holographic apps",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Library/";
             },},{id: "projects-berry",
           title: 'BeRrY',
           description: "A two-player competitive abstract strategy game",
