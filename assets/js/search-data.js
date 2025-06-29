@@ -43,6 +43,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-berry",
+          title: 'BeRrY',
+          description: "A two-player competitive abstract strategy game",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/berry/";
+            },},{id: "projects-card-odyssey",
+          title: 'Card Odyssey',
+          description: "A 54-card based solitaire strategy game",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/card-odyssey/";
             },},{id: "projects-circle-0",
           title: 'Circle 0',
           description: "A game of beautiful messes and inevitable destruction",
@@ -53,11 +63,21 @@ ninja.data = [{
           description: "A real-time farming strategy and resource management game",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hyper-ecofarm/";
+            },},{id: "projects-i-39-m-a-tree",
+          title: 'I&amp;#39;m A Tree',
+          description: "A serious first-person VR tree simulator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/im-a-tree/";
             },},{id: "projects-liteforms",
           title: 'Liteforms',
           description: "A Unity3D app to create and chat with conversational AI characters",
           section: "Projects",handler: () => {
               window.location.href = "/projects/liteforms/";
+            },},{id: "projects-melody-painter",
+          title: 'Melody Painter',
+          description: "A creative VR music builder and god simulator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/melody-painter/";
             },},{id: "projects-",
           title: '',
           description: "",
@@ -68,6 +88,26 @@ ninja.data = [{
           description: "Paper folding puzzles that bend your brain",
           section: "Projects",handler: () => {
               window.location.href = "/projects/puzzlegami/";
+            },},{id: "projects-six-games-in-one",
+          title: 'Six Games In One',
+          description: "Six simultaneous experimental games in one package",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/six-games-in-one/";
+            },},{id: "projects-straight-ahead",
+          title: 'Straight Ahead',
+          description: "A 2D fancy casual bouncing ball game",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/straight-ahead/";
+            },},{id: "projects-swirlyyy",
+          title: 'Swirlyyy',
+          description: "A two-player endless rhythm racer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/swirlyyy/";
+            },},{id: "projects-swirlyyyy-vr",
+          title: 'Swirlyyyy VR',
+          description: "A VR endless rhythm racer on Gear VR",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/swirlyyyy-vr/";
             },},{id: "projects-looking-glass-unity-plugin",
           title: 'Looking Glass Unity Plugin',
           description: "A Unity Plugin project with plenty of features",
