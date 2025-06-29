@@ -37,36 +37,6 @@ You can download and play it at [itch.io](https://yesyes.itch.io/circle0).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif1.gif" title="Gameplay Moment 1" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif2.gif" title="Gameplay Moment 2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif3.gif" title="Gameplay Moment 3" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Early gameplay moments showcasing the chaotic interactions in Circle0.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif4.gif" title="Gameplay Moment 4" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cover-gif.gif" title="Cover Art Animation" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gif9.gif" title="Gameplay Moment 5" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    More dynamic scenes from Circle0, including the cover animation.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gif10.gif" title="Gameplay Moment 6" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -78,4 +48,31 @@ You can download and play it at [itch.io](https://yesyes.itch.io/circle0).
 </div>
 <div class="caption">
     Additional gameplay clips highlighting the game's unique mechanics and visual style.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/media/gif1_dUFxrwp.gif" title="Gameplay Moment 9" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/media/gif2_eMoAltR.gif" title="Gameplay Moment 10" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/media/gif6.gif" title="Gameplay Moment 11" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    More gameplay visuals from Circle0 showcasing chaotic and dynamic interactions.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/media/gif7.gif" title="Gameplay Moment 12" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/media/gif8.gif" title="Gameplay Moment 13" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Further visuals from Circle0 capturing the game's unique destructive style.
 </div>

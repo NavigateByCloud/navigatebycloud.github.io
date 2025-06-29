@@ -70,8 +70,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-        with:
-          fetch-options: '--depth=0'
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
@@ -89,12 +87,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Verify Includes Directory
+      - name: Verify and Copy Includes Directory
         run: |
           echo "Checking contents of _includes directory:"
           ls -la _includes || echo "Directory _includes not found"
           if [ -f "_includes/figure.liquid" ]; then
             echo "figure.liquid found in _includes"
+            mkdir -p /github/workspace/_includes
+            cp _includes/figure.liquid /github/workspace/_includes/
+            echo "Copied figure.liquid to /github/workspace/_includes/"
           else
             echo "figure.liquid NOT found in _includes"
           fi
