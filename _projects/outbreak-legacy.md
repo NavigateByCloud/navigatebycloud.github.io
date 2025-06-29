@@ -18,11 +18,13 @@ Control a paddle in the marble ring and choose 8 marbles with exciting buffs and
 Outbreak: Legacy was developed by a team of 7. I'm one of the two core game developers.
 
 As a gameplay and UI programmer, I:
+
 - Worked within Unity(C#) on controls, movement, UI/animations, collisions
 - Coded and debugged effectively with other developers using Version Control(GitHub)
 - Collaborated with artists and designers to visualize gameplay while matching their requirements
 
 As a game designer, I contributed to the:
+
 - Brainstorming of expansion
 - Robot ball setting and collecting system
 - Competitive analysis

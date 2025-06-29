@@ -7,6 +7,7 @@ importance: 10
 category: work
 related_publications: false
 ---
+
 Liteforms is a Unity3D project that I led in Looking Glass Factory for users to create and chat with conversational AI characters on Mac/Windows. Check more details at the [Liteforms Website](https://lookingglassfactory.com/liteforms).
 
 I implemented almost all the UI pages. Below are screenshots.

@@ -20,11 +20,13 @@ Hyper Ecofarm is my solo thesis of Game Design MFA at NYU Game Center.
 Hyper Ecofarm was my solo thesis project. I programmed and drew assets and found sounds and music for the project. I was also a project manager and took responsibility for promoting. After I was awarded Sloan Grant, I found another three collaborators - a programmer - Vivi Yu, an artist - Zuoyang Liu, and sound designer - Corey Bertelsen. I concentrated on design, programming, and project management after that.
 
 As a project manager:
+
 - Organized every week's meeting with mentors
 - Development plan and budget
 - Kept eyes on the process
 
 As a game designer, I worked on:
+
 - Iterative design (playtest, analyze feedbacks and heuristics, and adjust game designs accordingly)
 - System design: [Diagram](https://drive.google.com/open?id=10sahc0PtlibuXxfxo9LiOZe7Y80_gmx3)
 - Game pacing & balancing
@@ -33,6 +35,7 @@ As a game designer, I worked on:
 - Worked on playtesting every Thursday, collected feedbacks and iterated on designs
 
 As a game developer, I implemented:
+
 - Worked on UI, gameplay, tile generator effectively using JSON, Observers, State Machine, Flyweight, Singleton patterns
 - Debugged and troubleshot to make sure no bugs in the builds for playtesting on every Thursday
 - Ensured game assets are efficiently integrated into the game while preserving artistic integrity and performance
