@@ -9,45 +9,35 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "Software engineer in New York City — full-stack product work in React, TypeScript, and Go, with a background in developer platforms and real-time graphics.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of my cool projects.",
+          description: "Engineering work, and the games and experiments that got me here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-library",
           title: 'Library',
-          description: "A Library for holographic apps",
+          description: "The app storefront and launcher for holographic displays",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Library/";
+            },},{id: "projects-arcgis-on-holographic-displays",
+          title: 'ArcGIS on Holographic Displays',
+          description: "The rendering layer bringing enterprise geospatial data into real 3D",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arcgis-integration/";
             },},{id: "projects-berry",
           title: 'BeRrY',
           description: "A two-player competitive abstract strategy game",
@@ -63,6 +53,11 @@ ninja.data = [{
           description: "A game of beautiful messes and inevitable destruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/circle0/";
+            },},{id: "projects-holographic-display-r-amp-d",
+          title: 'Holographic Display R&amp;amp;D',
+          description: "Display calibration research, and a co-invented patent on multi-viewer holographic imaging",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/holographic-display-patent/";
             },},{id: "projects-hyper-ecofarm",
           title: 'Hyper Ecofarm',
           description: "A real-time farming strategy and resource management game",
@@ -75,7 +70,7 @@ ninja.data = [{
               window.location.href = "/projects/im-a-tree/";
             },},{id: "projects-liteforms",
           title: 'Liteforms',
-          description: "A Unity3D app to create and chat with conversational AI characters",
+          description: "Taking a conversational AI hologram from experiment to shipped product",
           section: "Projects",handler: () => {
               window.location.href = "/projects/liteforms/";
             },},{id: "projects-melody-painter",
@@ -83,9 +78,9 @@ ninja.data = [{
           description: "A creative VR music builder and god simulator",
           section: "Projects",handler: () => {
               window.location.href = "/projects/melody-painter/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-outbreak-legacy",
+          title: 'Outbreak: Legacy',
+          description: "An innovative brick-breaker game with unique features",
           section: "Projects",handler: () => {
               window.location.href = "/projects/outbreak-legacy/";
             },},{id: "projects-puzzlegami",
@@ -113,9 +108,14 @@ ninja.data = [{
           description: "A VR endless rhythm racer on Gear VR",
           section: "Projects",handler: () => {
               window.location.href = "/projects/swirlyyyy-vr/";
+            },},{id: "projects-agentic-ai-mortgage-pos",
+          title: 'Agentic AI Mortgage POS',
+          description: "Full-stack product engineering on an agentic AI mortgage point-of-sale platform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tidalwave/";
             },},{id: "projects-looking-glass-unity-plugin",
           title: 'Looking Glass Unity Plugin',
-          description: "A Unity Plugin project with plenty of features",
+          description: "Owning the developer experience of a holographic display SDK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/unity-plugin/";
             },},{
