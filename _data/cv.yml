@@ -13,11 +13,6 @@
 - title: Experience
   type: time_table
   contents:
-    # REVIEW: current-employer wording — please check against your employment agreement
-    # before this is published. Everything below is limited to what Tidalwave states
-    # publicly (agentic AI mortgage platform, borrower/loan-officer workflows, the
-    # announced ICE Encompass integration). No internal feature names, no internal
-    # architecture, no loan/customer/event counts, no internal benchmarks.
     - title: Software Engineer
       institution: Tidalwave
       location: New York, NY
@@ -26,7 +21,6 @@
         - Full-stack product engineering in React, TypeScript, and Go on <a href="https://www.tidalwave.ai/">SOLO</a>, an agentic AI mortgage point-of-sale (POS) platform automating the loan lifecycle.
         - Build borrower-facing application workflows spanning the borrower, loan officer, and closing experience.
         - Work on loan-origination-system integration against <a href="https://www.tidalwave.ai/blog/agentic-ai-mortgage-startup-tidalwave-announces-ice-mortgage-technology-integration">ICE Encompass</a>, translating mortgage domain and compliance rules into data models and synchronization workflows.
-    # END REVIEW
 
     - title: Software Engineer
       institution: Looking Glass Factory

@@ -6,19 +6,6 @@ importance: 1
 category: work
 ---
 
-<!-- =====================================================================
-REVIEW: current-employer wording — please check this page against your
-employment agreement before publishing.
-
-Everything on this page is limited to what Tidalwave has already stated
-publicly: the agentic-AI-mortgage framing, the borrower / loan officer /
-closing workflows, and the announced ICE Encompass integration.
-
-Deliberately excluded: internal feature names, the design of internal
-frameworks, loan / event / customer counts, and internal benchmark results.
-Those stay on the resume PDF sent directly to recruiters.
-====================================================================== -->
-
 Since July 2025 I've been a software engineer at [Tidalwave](https://www.tidalwave.ai/), working full-stack in **React, TypeScript, and Go** on SOLO — an agentic AI **mortgage point-of-sale (POS)** platform.
 
 A mortgage POS is the front door of a loan — the software a borrower actually sits in front of, and the system a loan officer works out of. It's where an application gets started, where documents and income and asset data arrive, and where the loan either moves forward or quietly stalls. "Agentic" here means the platform runs autonomous AI agents against the parts of that process that have historically required a person to chase, retype, or verify something by hand.
