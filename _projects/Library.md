@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Library
-description: A Library for holographic apps
+description: The app storefront and launcher for holographic displays
 img: assets/img/library-gif.gif
-importance: 16
+importance: 6
 category: work
 ---
 
-Library is a Unity3D project that I developed and maintained in Looking Glass Factory for users to browser and play with apps on Mac/Windows. It has features like user login, fetch latest apps, favourite apps, update notification, and etc.
+Library is the Mac/Windows desktop application I developed and maintained at Looking Glass Factory for browsing, installing, and launching holographic apps — the storefront and launcher that sat between a customer's new display and the software that made it worth owning. Built in Unity3D, with user login, app catalog fetching, favorites, and update notifications.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

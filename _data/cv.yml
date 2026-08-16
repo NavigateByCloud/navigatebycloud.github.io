@@ -2,96 +2,87 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Shiyun Liu
+    - name: Location
+      value: New York City
+    - name: Email
+      value: <a href="mailto:shiyunliu.vanilla@gmail.com">shiyunliu.vanilla@gmail.com</a>
+    - name: Elsewhere
+      value: <a href="https://www.linkedin.com/in/liushiyun">LinkedIn</a>, <a href="https://github.com/navigatebycloud">GitHub</a>
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    # REVIEW: current-employer wording — please check against your employment agreement
+    # before this is published. Everything below is limited to what Tidalwave states
+    # publicly (agentic AI mortgage platform, borrower/loan-officer workflows, the
+    # announced ICE Encompass integration). No internal feature names, no internal
+    # architecture, no loan/customer/event counts, no internal benchmarks.
+    - title: Software Engineer
+      institution: Tidalwave
+      location: New York, NY
+      year: Jul 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Full-stack product engineering in React, TypeScript, and Go on <a href="https://www.tidalwave.ai/">SOLO</a>, an agentic AI mortgage point-of-sale (POS) platform automating the loan lifecycle.
+        - Build borrower-facing application workflows spanning the borrower, loan officer, and closing experience.
+        - Work on loan-origination-system integration against <a href="https://www.tidalwave.ai/blog/agentic-ai-mortgage-startup-tidalwave-announces-ice-mortgage-technology-integration">ICE Encompass</a>, translating mortgage domain and compliance rules into data models and synchronization workflows.
+    # END REVIEW
+
+    - title: Software Engineer
+      institution: Looking Glass Factory
+      location: Brooklyn, NY
+      year: Jan 2019 - Jun 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Led the zero-to-one productization of <a href="https://lookingglassfactory.com/blog/liteforms-introduction">Liteforms</a> as main engineer, turning an experimental conversational hologram into a shipped product using Unity/C#, OpenAI APIs, and Azure Speech.
+        - Owned the developer-experience layer of the Looking Glass Unity/iOS plugin — sample scenes, setup wizard, pairing and calibration workflows, and the <a href="https://docs.lookingglassfactory.com/software/index/script-reference/ios-sample-scene-scripts">developer documentation</a>.
+        - Engineered the rendering layer for the <a href="https://lookingglassfactory.com/solutions-arcgis">ArcGIS 3D visualization integration</a>, bringing enterprise geospatial data onto holographic displays.
+        - Partnered with the CTO and founding hardware engineer on real-time Python/OpenCV display calibration R&D adopted across new and legacy display lines; co-inventor on <a href="https://patents.google.com/patent/US11754975B2/en">U.S. Patent 11,754,975</a>.
+        - Contributed Unity, rendering, and interaction engineering to enterprise customer projects, including work with <a href="https://www.drugdiscoverytrends.com/how-could-holographic-displays-boost-drug-discovery/">Schrödinger</a> on molecular visualization.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: MFA in Game Design
+      institution: New York University
+      year: Sep 2016 - Jun 2018
+    - title: Bachelor of Engineering in Game Programming
+      institution: Communication University of China
+      year: Sep 2012 - Jun 2016
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - TypeScript / JavaScript, Go, Python, C#, C++, Bash
+    - title: Frontend & Product
       items:
-        - Description 1.
-        - Description 2.
+        - React, React Native, TypeScript
+        - Complex forms, workflow orchestration, data validation
+    - title: Backend & Integrations
+      items:
+        - Go, REST APIs, domain modeling
+        - Asynchronous workflows and external-system integration
+    - title: AI & Reliability
+      items:
+        - OpenAI APIs, Azure Speech
+        - Human-in-the-loop systems, observability, end-to-end testing, feature flags
+    - title: Real-Time & Graphics
+      items:
+        - Unity / C#, iOS, rendering pipelines
+        - Python / OpenCV, FFmpeg
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: <a href="https://patents.google.com/patent/US11754975B2/en">System and Method for Holographic Image Display</a>
+      institution: U.S. Patent 11,754,975 — Looking Glass Factory Inc.
+      year: 2023
+      description:
+        - Co-inventor. Covers a holographic display system that tracks viewer position and renders customized views for multiple simultaneous viewers without headsets.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Game design:</u> casual, simulation, RPG, and strategy games — a decade of shipped personal and student work, built in Unity and more recently Godot.
+    - <u>Art:</u> quick sketching, figure drawing, and traditional Chinese painting.

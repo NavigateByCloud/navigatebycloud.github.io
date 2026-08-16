@@ -1,16 +1,28 @@
 ---
 layout: page
 title: Liteforms
-description: A Unity3D app to create and chat with conversational AI characters
+description: Taking a conversational AI hologram from experiment to shipped product
 img: assets/img/liteforms customization.png
-importance: 10
+importance: 2
 category: work
 related_publications: false
 ---
 
-Liteforms is an innovative Unity3D project I spearheaded at Looking Glass Factory, empowering users to design and interact with conversational AI characters on both Mac and Windows platforms. This application redefines user engagement by blending creativity with cutting-edge AI technology. Explore the full potential of Liteforms and see it in action at the [Liteforms Website](https://lookingglassfactory.com/liteforms).
+[Liteforms](https://lookingglassfactory.com/blog/liteforms-introduction) began as an experiment: what happens if you put a large language model behind a holographic character and let someone talk to it out loud? It was a compelling demo. Demos are not products, and the year-long distance between those two things is the work I'm proudest of at Looking Glass Factory.
 
-I implemented almost all the UI pages. Below are screenshots.
+I was the main engineer on that productization — taking it from a prototype into a shipped application on Mac and Windows, built in **Unity/C#** against **OpenAI's APIs** and **Azure Speech**. It launched publicly in 2023 and was covered by [TechCrunch](https://techcrunch.com/2023/05/23/looking-glass-taps-chatgpt-for-holograms-you-can-talk-to) and [PetaPixel](https://petapixel.com/2023/05/23/looking-glass-liteforms-are-holograms-you-can-talk-with/), and I supported customer-facing demos for enterprise clients including Accenture.
+
+### What productization actually meant
+
+**Authoring, not just conversing.** The demo had a character. The product needed anyone to be able to make one — personality, voice, appearance, animations, spatial placement. That meant designing and implementing essentially the entire application surface, which is what the screenshots below are.
+
+**Latency you can live with.** A conversation has a rhythm, and speech-to-text, model inference, and text-to-speech chained end to end will break it if you treat them as sequential blocking calls. Making a hologram feel present rather than laggy is a pipelining and streaming problem long before it is a model-quality problem.
+
+**Failure without breaking the illusion.** Network calls fail and models produce something unusable. A character that freezes or emits an error string stops being a character. Handling that gracefully — staying in character while recovering — is a design problem that lands squarely on the engineer.
+
+**The thing running on the display.** Rendering a live, animated, lip-synced avatar on a light field display means paying the multi-view rendering cost continuously, at conversational frame rates, on a customer's machine.
+
+Below are screenshots of the application UI.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

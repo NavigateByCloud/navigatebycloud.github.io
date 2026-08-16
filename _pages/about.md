@@ -4,16 +4,15 @@ title: about
 # nav: true
 # nav_order: 6
 permalink: /
-subtitle: Welcome!
+subtitle: Software engineer in New York City — full-stack product work, developer platforms, and real-time graphics.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  more_info: >
+    <p>New York City</p>
+    <p><a href="/cv/">CV</a> · <a href="https://github.com/navigatebycloud">GitHub</a> · <a href="https://www.linkedin.com/in/liushiyun">LinkedIn</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,11 +28,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Shiyun — a software engineer and game developer based in New York City.
-I studied game programming during undergrad and earned my master’s in game design. My passion lies in creating casual, simulation, RPG, and strategy games that offer players 100% enjoyment — immersive, engaging, and fun from start to finish.
+Hi, I'm Shiyun — a product-minded software engineer based in New York City.
 
-I also enjoy building tools that help users eliminate repetitive, tedious work — freeing them to focus on what truly matters. Over the past few years, I’ve been working with Unity, and recently started exploring Godot, which I find refreshingly intuitive and fun to develop with.
+I like being the person who takes something from nothing to shipped. Most of my work has been zero-to-one: sitting close to the problem, figuring out what the product actually needs to do, and then building it end to end. These days that means full-stack work in **React, TypeScript, and Go** on AI-assisted workflows in fintech — turning messy, ambiguous inputs into something structured that a person can trust and correct.
 
-Feel free to explore the [Projects](/projects/) section to see some of the work I've done!
+Before that I spent six years at [Looking Glass Factory](https://lookingglassfactory.com/) building holographic products and the developer platform around them. I led the productization of [Liteforms](/projects/liteforms/), a conversational AI hologram product, and owned the developer experience of the [Unity plugin](/projects/unity-plugin/) — the sample scenes, setup flows, and documentation that decide whether someone's first hour with your SDK ends in a working build or a closed tab. I also worked on the [ArcGIS integration's](/projects/arcgis-integration/) rendering layer and on display calibration R&D, which led to a [co-invented patent](/projects/holographic-display-patent/).
 
-Outside of tech, I'm a dedicated art lover. I spend time practicing quick sketching, figure drawing, and traditional Chinese painting — creative outlets that fuel my imagination both in code and on canvas.
+The thread through all of it is building tools that take repetitive, tedious work off someone's plate so they can spend their attention on the part that actually matters.
+
+I got here sideways: I studied game programming as an undergrad and earned my master's in game design at NYU, and I still build games — casual, simulation, RPG, and strategy — in Unity and more recently Godot. Games taught me most of what I know about real-time systems, and about the fact that people judge software by how it feels, not by how it's architected. The [Projects](/projects/) page has both halves.
+
+Outside of tech I'm a dedicated art lover. I practice quick sketching, figure drawing, and traditional Chinese painting — creative outlets that fuel my imagination both in code and on canvas.
