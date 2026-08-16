@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Outbreak: Legacy
+title: "Outbreak: Legacy"
 description: An innovative brick-breaker game with unique features
 img: assets/img/media/2018-03-24_22_20_43.gif
 importance: 1
