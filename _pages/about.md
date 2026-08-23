@@ -9,6 +9,7 @@ subtitle: Software engineer in New York City — full-stack product work, develo
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Self-portrait of Shiyun Liu, an ink line drawing
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York City</p>
@@ -38,4 +39,4 @@ The thread through all of it is building tools that take repetitive, tedious wor
 
 I got here sideways: I studied game programming as an undergrad and earned my master's in game design at NYU, and I still build games — casual, simulation, RPG, and strategy — in Unity and more recently Godot. Games taught me most of what I know about real-time systems, and about the fact that people judge software by how it feels, not by how it's architected. The [Projects](/projects/) page has both halves.
 
-Outside of tech I'm a dedicated art lover. I practice quick sketching, figure drawing, and traditional Chinese painting — creative outlets that fuel my imagination both in code and on canvas.
+Outside of tech I'm a dedicated art lover. I practice quick sketching, figure drawing, and traditional Chinese painting — the portrait at the top of this page is one of mine, and so is the icon in your browser tab. Creative outlets that fuel my imagination both in code and on canvas.

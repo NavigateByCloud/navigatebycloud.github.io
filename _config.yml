@@ -16,7 +16,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Shiyun Liu, software engineer, full-stack engineer, product engineer, React, TypeScript, Go, agentic AI, fintech, mortgage technology, Unity, developer platforms, New York City # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # tab icon: a crop of the self-portrait in assets/img/prof_pic.jpg
 
 url: https://shiyunliu.com # canonical domain; navigatebycloud.github.io 301-redirects here
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
