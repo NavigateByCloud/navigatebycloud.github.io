@@ -23,12 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-library",
+        },{id: "projects-library",
           title: 'Library',
           description: "The app storefront and launcher for holographic displays",
           section: "Projects",handler: () => {
