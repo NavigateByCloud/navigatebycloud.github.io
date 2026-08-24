@@ -2,6 +2,7 @@
 layout: page
 title: ArcGIS on Holographic Displays
 description: The rendering layer bringing enterprise geospatial data into real 3D
+img: assets/img/arcgis-holographic.jpg
 importance: 4
 category: work
 ---
@@ -11,6 +12,15 @@ Most 3D data is looked at on flat screens. That is especially true in geospatial
 At Looking Glass Factory I engineered the rendering layer for the [ArcGIS integration](https://lookingglassfactory.com/solutions-arcgis) — an application that takes that data and puts it on a holographic display, in real depth, with no headset and no eye tracking. Several people can stand around it and point at the same thing, which turns out to be the entire value proposition.
 
 The application was built on **Esri's ArcGIS Maps SDK for Unity**, which handles the geospatial side: streaming basemaps, elevation, and 3D scene layers into a Unity scene and keeping them registered to real-world coordinates. My work was the layer underneath the picture — getting that scene to render correctly on a light field display.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/arcgis-holographic.jpg" title="ArcGIS data on a Looking Glass display" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    ArcGIS terrain data on a Looking Glass display, with the layer controls alongside. Image courtesy of Looking Glass Factory.
+</div>
 
 ### The engineering problem
 

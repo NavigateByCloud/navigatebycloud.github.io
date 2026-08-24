@@ -2,6 +2,7 @@
 layout: page
 title: Holographic Display R&D
 description: Display calibration research, and a co-invented patent on multi-viewer holographic imaging
+img: assets/img/patent-figure-12.png
 importance: 5
 category: work
 ---
@@ -21,6 +22,15 @@ Working on calibration is a good corrective to the instinct that software proble
 I'm a co-inventor on [U.S. Patent 11,754,975 B2](https://patents.google.com/patent/US11754975B2/en), _System and Method for Holographic Image Display_, assigned to Looking Glass Factory and granted in September 2023.
 
 The patent covers a holographic display system that tracks where viewers are positioned and renders customized views accordingly — so multiple people looking at the same display at the same time can each be served an appropriate perspective, without glasses or a headset. The full claims are public at the link above.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/patent-figure-12.png" title="Figure 12 of U.S. Patent 11,754,975" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 12 from the patent: two viewers at different positions, each served a different view, with one viewcone center adjusted to suit where that person is standing.
+</div>
 
 Being named on it is one of the more concrete artifacts of six years of this kind of work, though I'd say the honest version is that patents are a lagging indicator. The interesting part was the several years of trying things against real hardware that preceded it.
 
